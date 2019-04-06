@@ -4,16 +4,16 @@
 * i.e. A function to generate a greeting to specific person you designate:*/
 
 // Step One: Define the function.
-function greeting(guest){ // takes in a parameter named 'guest' which acts like a local variable inside the function
- return "Good afternoon " + guest + ".";  // the output value after the function is invoked
-}
-greeting("Mr. Smith"); // invoking or calling the function to execute the code (instructions) inside the function.
+// function greeting(guest){ // takes in a parameter named 'guest' which acts like a local variable inside the function
+//  return "Good afternoon " + guest + ".";  // the output value after the function is invoked
+// }
+// greeting("Mr. Smith"); // invoking or calling the function to execute the code (instructions) inside the function.
 
-// Step Two: Assign the function invocation to a variable.
-var testGreeting = greeting("Mr. Smith"); // assigning the function call into a variable 
+// // Step Two: Assign the function invocation to a variable.
+// var testGreeting = greeting("Mr. Smith"); // assigning the function call into a variable 
 
-// Step Three: Console.log the variable to test function output!
-console.log(testGreeting); // printing the output value of the function.
+// // Step Three: Console.log the variable to test function output!
+// console.log(testGreeting); // printing the output value of the function.
 
 // From your terminal, try running this file with node in order to see the result of `console.log(testGreeting);`
 
@@ -27,7 +27,8 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-
+var bango1=1;
+var bango2=2;
 
 /*
  * #2
@@ -44,7 +45,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `sum` to test your code.
 */
 
+function add (num1, num2){
+    return num1+num2;
+}
 
+var sum = add(bango1,bango2);
+console.log('sum: '+sum);
 
 /*
  * #3
@@ -60,7 +66,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `difference` to test your code.
 */ 
 
+function subtract (num1, num2){
+    return num1-num2
+}
 
+var difference=subtract(bango1,bango2);
+console.log('difference: '+difference);
 
 /*
  * #4
@@ -76,7 +87,9 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `product` to test your code.
 */
 
-
+function  (num1, num2){
+    return num1
+}
 
 /*
  * #5
