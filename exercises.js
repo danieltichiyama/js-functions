@@ -127,7 +127,12 @@ console.log('quotient: ' +quotient);
  * Console.log your result.
 */
 
+function checkSum(x){
+    return 'Mariah Carey has been married '+x+' amount of times.';
+}
 
+var daDiva = checkSum (bango1);
+console.log(daDiva);
 
 /*
  * #7
