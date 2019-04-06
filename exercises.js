@@ -206,7 +206,16 @@ console.log('the product of the product and the quotient is: '+checkQuotient());
  * Console.log your result.
 */ 
 
+var bango3=3;
+var bango4=4;
+var bango5=5;
 
+function addThenSubtract (num1,num2,num3){
+    var sumIn=add(num1,num2);
+    return subtract(sumIn,num3);
+}
+
+console.log(addThenSubtract(bango3,bango4,bango5));
 
 /*
  * #11
