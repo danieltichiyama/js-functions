@@ -211,8 +211,8 @@ var bango4=4;
 var bango5=5;
 
 function addThenSubtract (num1,num2,num3){
-    var sumIn=add(num1,num2);
-    return subtract(sumIn,num3);
+    var sum=add(num1,num2);
+    return subtract(sum,num3);
 }
 
 console.log(addThenSubtract(bango3,bango4,bango5));
@@ -231,8 +231,12 @@ console.log(addThenSubtract(bango3,bango4,bango5));
  * Console.log your result.
 */ 
 
+function multiplyThenDivide(num1,num2,num3){
+    var product=multiply(num1,num2);
+    return divide(num1,num2);
+}
 
-
+console.log(multiplyThenDivide(bango3,bango4));
 /*
  * #12
  * Function - createFullName
