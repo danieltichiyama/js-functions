@@ -180,6 +180,12 @@ console.log('the sum times the product is: '+checkProduct());
  * Console.log your result.  
 */
 
+function checkQuotient(){
+    return product*quotient;
+}
+
+console.log('the product of the product and the quotient is: '+checkQuotient());
+
 /*
  * Declare three variables
  *   @variable Datatype: Number `bango3`
