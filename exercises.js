@@ -288,8 +288,12 @@ console.log(eatFood('Biggie','Smalls','Won Ton Soup'));
  * Console.log your result. 
 */
 
+function shoeSize(inches){
+    return inches*2.54;
 
+}
 
+console.log(shoeSize(9.5));
 /*
  * #15
  * Function allCaps
