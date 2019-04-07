@@ -318,8 +318,11 @@ console.log(allCaps("believe you can and you're halfway there."));
  * Console.log your result.
 */
 
+function oneCap(str){
+    return str.replace(str[0],str[0].toUpperCase());
+}
 
-
+console.log(oneCap("believe you can and you're halfway there."));
 /*
  * #17
  * Function - verifyDrinkingAge
