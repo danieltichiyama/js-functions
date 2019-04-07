@@ -270,8 +270,10 @@ console.log(createFullName('Daniel','Ichiyama'));
  */
 
 function eatFood(firstName,lastName,food){
-    
+    return createFullName(firstName, lastName) + ' eats ' + food +" everyday for breakfast";
 }
+
+console.log(eatFood('Biggie','Smalls','Won Ton Soup'));
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
